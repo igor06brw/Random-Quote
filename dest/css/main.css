@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quote {
+  background-color: #fff;
+  background-color: #eee;
+  width: 500px;
+  padding: 40px;
+  border-radius: 30px;
+  align-self: center;
+}
+
+.quote__content {
+  text-indent: 2em;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-align: left;
+  word-spacing: 0.3em;
+  text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.quote__author {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.fade {
+  animation: .3s fade;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
