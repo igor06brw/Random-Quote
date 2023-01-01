@@ -29,6 +29,6 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "materialize-css": "^1.0.0-rc.2",
-    "webpack": "^4.41.2"
+    "webpack": "^5.75.0"
   }
 }
